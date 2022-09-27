@@ -1,4 +1,4 @@
-#Name: Luis Marcano
+#Name: Luis A Marcano
 #Email: luis.marcano29@myhunter.cuny.edu
 #Date: 8/30/2022
 #This program uses a loop to countdown from 12 to 1 then prints "WOW"

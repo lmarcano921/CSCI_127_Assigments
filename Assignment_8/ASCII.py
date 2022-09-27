@@ -1,11 +1,22 @@
-#Name: Luis Marcano
-#Email: luis.marcano29@myhunter.cuny.edu
-#Date: 8/30/2022
-#This program takes a phrase then prints the character and its ASCII code
+
+
 
 phrase = input("Enter a phrase: ")
-nexttwo = 2
+
+print ("letter " + "ASCII " + "next_two_letter")
 for i in phrase:
-    print (phrase[i] + " " + ord[i] + " " + phrase[nexttwo])
-    nexttwo+=2
+    character = i
+    ASCII_code_of_character = ord(i)
+    next_two_letter = ord(i) + 2
+    print("%6c %5i, %15c" %(character, ASCII_code_of_character, next_two_letter ))
+    
+message = input("Enter a phrase: ")
+print("letter", "ASCII", "next_two_letter")
+for ch in message:
+    character = ch
+    ASCII_code_of_character = ord(ch)
+    next_two_letter_of_character = ord(ch) + 2
+    
+    print("%6c %5i %15c"%(character, ASCII_code_of_character, next_two_letter_of_character))
+
     
