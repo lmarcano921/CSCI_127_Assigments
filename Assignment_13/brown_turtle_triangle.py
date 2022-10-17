@@ -13,8 +13,6 @@ t.penup()
 t.backward(100)
 t.pendown()
 
-
-
 #Move her backwards, to give more space to draw
 #For 0,10,20,...,250
 for i in range(3):

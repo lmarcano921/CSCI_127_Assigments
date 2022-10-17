@@ -1,0 +1,7 @@
+#Luis A Marcano
+#10/15/2022
+#luis.marcano29@myhunter.cuny.edu
+#Unix shell script
+
+Hello!
+Greeting from $USER

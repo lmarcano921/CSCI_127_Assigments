@@ -1,0 +1,6 @@
+#Luis A Marcano
+#10/15/2022
+#luis.marcano29@myhunter.cuny.edu
+#Find Missing gate
+
+out = (in1 and in2) or not(in2 or in3)
