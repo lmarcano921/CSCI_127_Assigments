@@ -5,7 +5,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-
+#adding this to see somrthing
 def average(region):
      """
      Takes a region of an image and
