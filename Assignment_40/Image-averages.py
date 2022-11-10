@@ -12,17 +12,11 @@ def average(region):
      Takes a region of an image and
      Returns the average red, green, and blue values across the region.
      """
-
-     red, green, blue = 0,0,0  #<-- placeholder, can remove once defined.
-
-     ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other than your name above, ###
-     ### this is the only section    ###
-     ### you change in this program. ###
-     ###################################
-
-
+     red = np.average(region[:,:,0])
+     green = np.average(region[:,:,1])
+     blue = np.average(region[:,:,2])
+#Set each pixel to the average value:
+     
      return(red,green,blue)
 
 def setRegion(region, r,g,b):
@@ -31,17 +25,9 @@ def setRegion(region, r,g,b):
      Sets the region so that all points have
      red values of r, green values of g, and blue values of b.
      """
-
-     ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other than your name above, ###
-     ### this is the only section    ###
-     ### you change in this program. ###
-     ###################################
-
-
-
-
+     region[:,:,0] = r
+     region[:,:,1] = g
+     region[:,:,2] = b 
 
 ######################################################################
 ### DO NOT CHANGE ANYTHING BELOW AND INCLUDING THIS LINE           ###
