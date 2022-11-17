@@ -1,7 +1,6 @@
-#CSci 127 Teaching Staff
-#October 2017
-#A program that summarizes images, like koalastothemax
-#Modified by: Luis A Marcano
+#Luis A Marcano
+#11/19/2022
+#luis.marcano29@myhunter.cuny.edu
 
 import numpy as np
 import matplotlib.pyplot as plt
